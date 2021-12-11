@@ -1,25 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="7" failed="0" total="8" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60024" started-at="2021-12-11T16:17:39Z" finished-at="2021-12-11T16:18:39Z">
+  <suite name="Suite" duration-ms="79734" started-at="2021-12-11T16:35:49Z" finished-at="2021-12-11T16:37:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60024" started-at="2021-12-11T16:17:39Z" finished-at="2021-12-11T16:18:39Z">
-      <class name="org.testing.TestScripts.TC1">
-        <test-method status="PASS" signature="LocatorsFile()[pri:0, instance:org.testing.TestScripts.TC1@a9cd3b1]" name="LocatorsFile" is-config="true" duration-ms="41" started-at="2021-12-11T21:47:39Z" finished-at="2021-12-11T21:47:39Z">
+    <test name="Test" duration-ms="79734" started-at="2021-12-11T16:35:49Z" finished-at="2021-12-11T16:37:09Z">
+      <class name="org.testing.TestScripts.TC8">
+        <test-method status="PASS" signature="LocatorsFile()[pri:0, instance:org.testing.TestScripts.TC8@c267ef4]" name="LocatorsFile" is-config="true" duration-ms="13" started-at="2021-12-11T22:05:49Z" finished-at="2021-12-11T22:05:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LocatorsFile -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:org.testing.TestScripts.TC1@a9cd3b1]" name="OpenBrowser" is-config="true" duration-ms="19250" started-at="2021-12-11T21:47:39Z" finished-at="2021-12-11T21:47:59Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:org.testing.TestScripts.TC8@c267ef4]" name="OpenBrowser" is-config="true" duration-ms="12657" started-at="2021-12-11T22:05:49Z" finished-at="2021-12-11T22:06:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="TrendingClick()[pri:0, instance:org.testing.TestScripts.TC1@a9cd3b1]" name="TrendingClick" duration-ms="40688" started-at="2021-12-11T21:47:59Z" finished-at="2021-12-11T21:48:39Z">
+        <test-method status="PASS" signature="History()[pri:0, instance:org.testing.TestScripts.TC8@c267ef4]" name="History" duration-ms="40691" started-at="2021-12-11T22:06:01Z" finished-at="2021-12-11T22:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- History -->
+      </class> <!-- org.testing.TestScripts.TC8 -->
+      <class name="org.testing.TestScripts.TC7">
+        <test-method status="PASS" signature="LocatorsFile()[pri:0, instance:org.testing.TestScripts.TC7@1725dc0f]" name="LocatorsFile" is-config="true" duration-ms="2" started-at="2021-12-11T22:06:42Z" finished-at="2021-12-11T22:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocatorsFile -->
+        <test-method status="FAIL" signature="OpenBrowser()[pri:0, instance:org.testing.TestScripts.TC7@1725dc0f]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2021-12-11T22:06:42Z" finished-at="2021-12-11T22:06:42Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=96.0.4664.93)
+  (Driver info: chromedriver=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12.20 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'LAPTOP-NR892T3L', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51471}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}), userDataDir=C:\Users\Rahul\AppData\Local\Temp\scoped_dir12900_1449801760}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=96.0.4664.93, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 694e8b0476558af4e5f37f31a7913422]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=96.0.4664.93)
+  (Driver info: chromedriver=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12.20 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'LAPTOP-NR892T3L', ip: '192.168.0.177', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51471}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}), userDataDir=C:\Users\Rahul\AppData\Local\Temp\scoped_dir12900_1449801760}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=96.0.4664.93, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 694e8b0476558af4e5f37f31a7913422
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:907)
+	at org.testing.Base.Base.OpenBrowser(Base.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="History()[pri:0, instance:org.testing.TestScripts.TC7@1725dc0f]" name="History" duration-ms="5" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- History -->
+      </class> <!-- org.testing.TestScripts.TC7 -->
+      <class name="org.testing.TestScripts.TC4">
+        <test-method status="SKIP" signature="LocatorsFile()[pri:0, instance:org.testing.TestScripts.TC4@4facf68f]" name="LocatorsFile" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocatorsFile -->
+        <test-method status="SKIP" signature="OpenBrowser()[pri:0, instance:org.testing.TestScripts.TC4@4facf68f]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="PlayLike()[pri:0, instance:org.testing.TestScripts.TC4@4facf68f]" name="PlayLike" duration-ms="1" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlayLike -->
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC3">
+        <test-method status="SKIP" signature="LocatorsFile()[pri:0, instance:org.testing.TestScripts.TC3@76508ed1]" name="LocatorsFile" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocatorsFile -->
+        <test-method status="SKIP" signature="OpenBrowser()[pri:0, instance:org.testing.TestScripts.TC3@76508ed1]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="Subscriptons()[pri:0, instance:org.testing.TestScripts.TC3@76508ed1]" name="Subscriptons" duration-ms="3" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscriptons -->
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC6">
+        <test-method status="SKIP" signature="LocatorsFile()[pri:0, instance:org.testing.TestScripts.TC6@3911c2a7]" name="LocatorsFile" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocatorsFile -->
+        <test-method status="SKIP" signature="OpenBrowser()[pri:0, instance:org.testing.TestScripts.TC6@3911c2a7]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="CommentVideo()[pri:0, instance:org.testing.TestScripts.TC6@3911c2a7]" name="CommentVideo" duration-ms="1" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CommentVideo -->
+      </class> <!-- org.testing.TestScripts.TC6 -->
+      <class name="org.testing.TestScripts.TC5">
+        <test-method status="SKIP" signature="LocatorsFile()[pri:0, instance:org.testing.TestScripts.TC5@4ac3c60d]" name="LocatorsFile" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocatorsFile -->
+        <test-method status="SKIP" signature="OpenBrowser()[pri:0, instance:org.testing.TestScripts.TC5@4ac3c60d]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="ChannelSubscribe()[pri:0, instance:org.testing.TestScripts.TC5@4ac3c60d]" name="ChannelSubscribe" duration-ms="1" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChannelSubscribe -->
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC2">
+        <test-method status="SKIP" signature="LocatorsFile()[pri:0, instance:org.testing.TestScripts.TC2@41e36e46]" name="LocatorsFile" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocatorsFile -->
+        <test-method status="SKIP" signature="OpenBrowser()[pri:0, instance:org.testing.TestScripts.TC2@41e36e46]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="History()[pri:0, instance:org.testing.TestScripts.TC2@41e36e46]" name="History" duration-ms="2" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- History -->
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC1">
+        <test-method status="SKIP" signature="LocatorsFile()[pri:0, instance:org.testing.TestScripts.TC1@3d74bf60]" name="LocatorsFile" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocatorsFile -->
+        <test-method status="SKIP" signature="OpenBrowser()[pri:0, instance:org.testing.TestScripts.TC1@3d74bf60]" name="OpenBrowser" is-config="true" duration-ms="0" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="SKIP" signature="TrendingClick()[pri:0, instance:org.testing.TestScripts.TC1@3d74bf60]" name="TrendingClick" duration-ms="1" started-at="2021-12-11T22:07:08Z" finished-at="2021-12-11T22:07:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TrendingClick -->
       </class> <!-- org.testing.TestScripts.TC1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
