@@ -3,12 +3,10 @@ import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testing.Assertions.Asserts;
 import org.testing.Base.Base;
 import org.testing.Pages.Login;
 import org.testing.Pages.Logout;
 import org.testing.utilities.Logs;
-import org.testing.utilities.ScreenshotCapture;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
